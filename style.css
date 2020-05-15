@@ -1,0 +1,678 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+#menu_em_cima{   /*o header*/
+    width:100%;
+    height:180px;       /*so o header*/
+    top:0px;
+    left:0;
+    background-color:black;
+    position:fixed;
+    z-index:11;
+   
+
+}
+.menu-diferente{   /*menu para quando rolar a pagina*/
+    width:100%;
+    height:150px;       
+    top:0px;
+    left:0;
+    background-color:red;
+    position:absolute;
+    z-index:11;
+    position: fixed;
+
+}
+.menu-icon{
+  position:absolute;
+  font-size:25px;
+  font-weight:bold;      /*o simbolo do menu*/
+  padding:5px;
+  width:40px;
+  height:40px;
+  text-align:center;
+  background-color:white;
+  color:#190707;
+  cursor:pointer;
+  transition: all 1s;
+  left:0px;
+  top:100px;    
+}/*ola comentario    */
+.menu-icon:hover{ /*quando passar o mouse  */
+  background-color:#399b72;
+  color:blue;    
+  transform:rotate(35deg);
+
+}
+#chk{   /*o checkbox para aparecer*/
+  position:absolute;
+  display:none;                    /*esse é o checkbox*/
+}
+.menu{     /*é o menu principal que é a nav*/
+    
+    height:50%;
+    position:fixed;
+    background-color:#399b72;
+    top:180px; 
+    overflow:hidden; /*tira os pontos da lista*/
+    transition:all 1s;
+    width:200px;
+    left:-300px;  
+    z-index: 12;
+}
+
+#ul_menu{    /*esse "ul_menu" é para os uls relacionado as navs do menu*/
+    list-style:none;
+}
+#ul_menu li a{
+    display:block;          /*caracteristicas para os links*/
+    font-size:18px;
+    font-family:'Arail';
+    padding:10px;            
+    border-bottom:solid 1px #000;
+    color:#ccc;
+    text-decoration:none;
+    transition:all.1s;
+
+}
+#ul_menu li span{            /*para o "+ "*/
+    float:right;
+    padding-right:10px;
+}
+#ul_menu li a:hover{
+  background-color:white;
+	border-right: solid 5px black;
+    
+}
+.voltar{
+    margin-top:60px;
+    background-color:#111;
+    border-left:solid 5px #444;
+}
+
+/*#chk:hover~#principal{   /*quando a estiver clicado a nav é deslocada 300px*/
+    /*transform:translateX(300px);*/
+	
+	
+	
+
+/*
+#principal:hover{
+ transform:translateX(300px);
+}
+*/
+
+
+.bg{
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    position:fixed;
+    background-color:rgba(0,0,0,.6);   /*dá uma escurecida*/
+    display:none;  /*nao aparece nada ainda,só irá aparecer dps do evento,aí escurecerá*/
+}
+#chk:checked ~.bg{
+  /*  display:block;      /*agora sim a div ocupa todo o espaco r*/
+    
+}
+  /*estilizando agora as novas nav*/
+  #futebol{
+      width:200px;
+      left:201px;
+       display: none;  
+  }
+  #basquete{
+     width:200px;
+     left:201px;
+       display: none; 
+  }
+    #luta{
+     width:200px;
+     left:201px;
+   display: none;  
+  }
+  #natacao{
+     width:200px;
+     left:201px;
+     display: none;
+
+       }
+  /*#zz:hover #cursos{
+	  width:200px;
+  }
+  */
+ /*
+  #cursos:target,   
+  #contato:target{
+    position:fixed;
+	 width:200px;
+
+    /* transform:translateX(250px);*/
+	 
+	 
+  
+  
+  
+  	/* pesquisa*/
+.pesquisa1{
+position:absolute;
+width:400px;                  /*cacterísticas da pesquisa*/
+height:50px;
+top:100px;
+left:85%;
+}
+.pesquisa{
+position:absolute;
+width:400px;                  /*cacterísticas da pesquisa*/
+height:50px;
+top:100px;
+left:85%;
+
+
+}
+#texto{
+
+width:100px;       /*carac do input*/
+height:40px;
+float:left;
+color:black;
+font-family: 'Arial ';
+font-size:15px;
+background-color:rgb (0, 230, 230);
+}
+.btn{
+width:30px;
+height:30px;         /*imagem da lupa*/
+background-color:#2b2727;
+padding : 5px 10px;
+cursor : pointer;
+}
+#texto:focus{
+
+border : solid 2px #2f4550;
+width:140px;
+
+
+
+}
+
+/*terminou-*/
+/*o nome do "menu" */
+#leg{
+left:60px;
+top:110px;
+position:absolute;
+font-size:25px;
+font-family:'Arial';
+ color: white;
+	
+}
+/*fechou parte de cima do "menu"*/
+/*configurando logotipo*/
+#logo{
+position:absolute;
+top:0px;
+right:450px;
+width:500px;
+height:150px;
+}
+/*tela de acesso em cima*/
+
+.acesso #aces_ul{
+right:17px;
+position:absolute;
+top:0px;
+margin:0;
+list-style:none;
+background-color:#41f700;
+border-radius:4px 2px 10px 3px;
+cursor: pointer;
+}
+.acesso #aces_ul li{
+
+display:inline;	
+font-size:20px;
+font-family:"Arial";	
+}
+.acesso #aces_ul li ul{
+  top:4px;
+  width:60%;
+  position: relative;
+color:red;
+background-color:white;
+z-index: 12;
+border-right:1px solid blue;
+display:none;
+left:100px;
+}
+.acesso #aces_ul li ul li{
+  height:30px;
+   position: relative;
+   padding-top: 2px;
+  padding-right:2px;
+  border-bottom:3px solid #03122b;
+  color:red;
+  text-align: center;
+  display:block;
+
+
+}
+.acesso  #aces_ul  li  ul li:hover{
+background-color: blue;
+cursor: pointer;
+}
+.acesso #aces_ul li a{
+color:black;
+padding: 2px 10px;
+display:inline-block;	
+text-decoration:none;
+font-size:20px;
+font-family:"Arial";
+}
+
+
+/*tela de acesso em cima*/
+/*--------------------------------*/
+/*slide  ei olha o slide*/
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 842px;
+  height: 307px;;
+  overflow-x: hidden;
+}
+
+.wrap {
+ top:170px;
+ left:300px;
+ position: absolute;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+
+  background-image: url("img/pal.jpg");
+   
+}
+.slide2 {
+  background-image: url("img/nata.jpg");
+ 
+}
+.slide3 {
+  background-image: url("img/bas.jpg");
+  
+}
+.slide4 {
+  background-image: url("img/c.jpg");
+  
+}
+.slide5 {
+  background-image: url("img/a.jpg");
+ 
+}
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span {
+
+  font-size: 30px;
+  color: black;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+  border-width: 30px 40px 30px 0; 
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #fff;
+  right: 0;
+  margin-right: 30px;
+}
+
+/*slide  ei olha o slide*/
+/*menu rede social*/
+#social{
+margin:50px auto;
+width:1025px;
+height:150px;
+
+
+}
+.rede{
+	width:150px;
+	height:150px;
+	float:left;
+	margin-left:20px;
+	transition:all 0.4s ease-out;
+	border-radius:50%;
+}
+.rede:hover{
+cursor:pointer;
+transform:translateY(-20px);
+box-shadow:4px 30px 16px 0px rgba(50,50,50,0.45);	
+}
+.rede#facebook{
+	background-color:#2372a3;
+}
+.rede#twitter{
+	background-color:#0084b4;
+}
+.rede#instagram{
+	background-color:#3f729b;
+}
+.rede#snap{
+	background-color:#fc0;
+}
+.rede#plus{
+	background-color:#dd4b39;
+}
+.rede#youtube{
+	background-color:#b00;
+}
+.imgrede{
+	margin:0px auto;
+	padding:35px;
+	width:80px;	
+	
+}
+/*menu rede social*/
+/*zoom das noticias secundaria*/
+.zoom {
+	overflow: hidden;
+	width:500px;
+	position: relative;
+}
+.zommmaior{
+  width:800px;
+  position: relative;
+
+}
+.zoom .img-responsive {
+	 max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover .img-responsive {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#text-item {
+  left:70%;
+  top:0px;
+  position:absolute;
+	color:black;
+	font-weight: 700;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+/*css dos box da pagg*/
+body{
+background-image: linear-gradient(white, black);
+margin:0;
+padding:0;
+overflow-x: hidden;
+}
+#box{
+position:relative;
+box-shadow: 1px 1px 30px green;
+margin: 40px;
+padding: 40px;
+width: 800px;
+margin-top:400px;
+float:left;
+background-color: white;
+
+}
+#box2{
+box-shadow: 1px 1px 30px green;
+margin: 40px;
+padding: 40px;
+width: 400px;
+height: 800px;
+margin-top:500px;
+float:right;
+background-color: white;
+}
+#box3{
+margin: 0;
+padding: 0;
+width: 100%;
+height: 400px;
+margin-top:50px;
+float:right;
+background-color: white;
+}
+/*css do slide*/
+
+
+.slideshow-container{
+top:250px;
+width: 900px;
+height:350px;
+
+
+position: relative;
+
+
+left:22%;
+
+
+
+
+}
+
+.numbers{
+
+position: absolute;
+
+top: 0px;
+
+color: #f2f2f2;
+
+padding: 8px 12px;
+
+font-size: 12px;
+
+}
+
+.myslides{
+
+/*border:10px solid green;*/
+display: none;
+width: 900px;
+height:350px;
+
+}
+
+.prev , .next{
+
+position: absolute;
+
+top: 50%;
+
+font-size: 18px;
+
+font-weight: bold;
+
+padding: 16px;
+
+margin-top: -22px;
+
+border-radius: 0 3px 3px 0;
+
+color: #fff;
+
+cursor: pointer;
+
+}
+
+.next{
+
+right: 0;
+
+border-radius: 3px 0 0 3px;
+
+}
+
+.prev:hover,.next:hover{
+
+background-color: rgba(0,0,0,0.8);
+
+}
+
+.caption{
+
+text-align: center;
+
+position: absolute;
+
+bottom: 8px;
+
+width: 100%;
+
+color: #f2f2f2;
+
+font-size: 40px;
+
+padding: 8px 22px;
+font-family: impact;
+
+}
+
+.dots{
+top:30px; 
+left:400px;
+position:relative;
+
+width: 13px;
+
+height: 13px;
+
+background: gray;
+
+display: inline-block;
+
+border-radius: 50%;
+
+cursor: pointer;
+
+}
+
+.fade{
+
+animation-name:fade;
+
+animation-duration:1.5s;
+
+}
+
+@keyframes fade{
+
+from {opacity: 0.4;}
+
+to {opacity: 1;}
+
+}
+
+.active, .dot:hover {
+
+background-color: #333;
+
+}
+.img{
+/*border:10px solid yellow;*/
+background-repeat: no-repeat;
+
+
+width: 900px;
+height:350px;
+background-size: 900px 350px;
+box-shadow: 1px 1px 30px green;
+}
+#img1{background-image: url("img/n2.jpg");     }
+#img2{background-image: url("img/n2.jpg");     }
+#img3{background-image: url("img/n3.jpg");     }
+#img4{background-image: url("img/n4.jpg");     }
+/*css do slide*/
+#vejamais{
+top:20px;
+position:relative;
+width:500px;
+background-color:black;
+text-align:center;
+height:40px;
+
+
+margin:auto;
+
+}
+#vejamais:hover{
+background-color:black;
+box-shadow: 1px 1px 30px #db0f2a;
+
+}
+#vejamais:hover  #tvejamais{
+
+transform:translateY(-20px);
+transform:rotate(20deg)
+
+}
+#tvejamais{
+position:relative;
+top:10px;
+font-size:12pt;
+color:#21ce97;
+margin:auto;
+font-family:'Arial';
+
+}
+#textonoti{
+  position:absolute;
+  top:50px;
+  left:68%;
+  font-family:arial;
+  text-align: center;
+  color:red;
+  font-size:25px;
+  text-decoration:none;
+}
+
+
+
+
+
+

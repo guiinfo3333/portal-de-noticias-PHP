@@ -1,0 +1,674 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+				background-color: white;
+				background-repeat: no-repeat;
+				background-size: cover;
+				height:100%; 
+				position: relative;
+			  
+		   }
+				
+			.principal{
+				background-color:white;
+				box-shadow:2px 2px 10px black;
+				width:900px;
+				position:absolute;
+				margin-top: 100px;
+				left:3%;
+				padding-left: 10px;
+				padding-right: 10px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				margin-bottom: 10px;
+			}
+			.news{
+				background-color:white;
+				box-shadow: none;
+				width:800px;
+				padding-left: 15px;
+				padding-right: 15px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				margin:0 auto;
+				 text-indent:1em;
+
+			}
+			h1{
+				font-family: Old English Text MT;
+				text-align: left;
+				color:black;
+				position: relative;
+				margin-bottom: 20px;
+				font-size:40;
+			}
+			#subtitulo3{
+				font-family: times new roman;
+				display:inline-block;
+				padding-left: 10px;
+				padding-right: 10px;
+
+			}
+			#subtitulo4{
+				font-family: times new roman;
+				display:inline-block;
+				padding-left: 10px;
+				padding-right: 10px;
+
+			}
+			#subtitulo5{
+				font-family: times new roman;
+				display:inline-block;
+				padding-left: 10px;
+				padding-right: 10px;
+				right:10px;
+				position: absolute;
+
+			}
+			#imgNews{
+				box-shadow: none;
+				width:600px;
+				height:300px;
+				left:100px;
+				position: relative;
+
+			}
+			#news{
+				box-shadow: none;
+				width:760px;
+				margin-top: 20px;
+				text-align:justify;
+				font-size: 18;
+				color:black;
+				font-family: times new roman;
+				word-spacing: 10px;
+				font-weight:lighter;
+				word-wrap: break-word;
+			}
+	/* Notícias secundárias aqui */
+
+			.news2{
+			background-color:white;
+			box-shadow: 2px 2px 10px black;
+			width:300px;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			position:absolute;
+			right:1%;
+			margin-top: 100px;
+			}
+			.news3{
+			background-color:white;
+			box-shadow: 2px 2px 10px black;
+			width:300px;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			position:absolute;
+			right:1%;
+			margin-top: 400px;
+			}
+
+			#n2 ul {
+            padding:10px;
+            margin:10px;
+            background-color:#d8bcbc;
+            list-style:none;
+            }
+            #n2 ul li { 
+            display: block; 
+            }
+            #n2 ul li a {
+            padding: 20px 20px;
+            display: block;
+            /* visual do link */
+            background-color:#49e551;/*COR DA ÁREA DE NOTÍCIAS */
+            color: #333;
+            text-decoration: none;
+            border-bottom:3px solid #EDEDED;
+            }
+
+            #n2 ul li a:hover {
+            background-color:#d8bcbc; /*COR DA ÁREA DE NOTÍCIAS DEPOIS DE PASSAR O MOUSE EM CIMA */
+            color: #6D6D6D;
+            border-bottom:3px solid black;
+            }
+            /*================================== Menu ===============================*/
+
+		            #menu ul {
+		    padding:10px;
+		    margin:10px;
+		    background-color:#EDEDED;
+		    list-style:none;
+		}
+			#menu ul li { display: inline; }
+			#menu ul li a {
+		    padding: 20px 20px;
+		    display: inline-block;
+
+		    /* visual do link */
+		    background-color:#EDEDED;
+		    color: #333;
+		    text-decoration: none;
+		    border-bottom:3px solid #EDEDED;
+		}
+
+		hr{
+		    padding: 2px 2px;
+		    background-color:black;
+		}
+
+		#menu ul li a:hover {
+		    background-color:white;
+		    color: #6D6D6D;
+		    border-bottom:3px solid blue;
+		}
+/*===================================== Comentários ==============================*/
+		input[name="salvar"]{
+	  	background-color:#b5b8bc;
+	  	color:black;
+	  	padding:2px;
+	  	border: none;
+	  	border-radius: 25px;
+	  	cursor: pointer;
+	  	margin-top: 5px;
+	  	margin-bottom: 0px;
+	  	float:left;
+	  	left:10px;
+		position:relative;
+		margin-left: 5px;
+		outline: none;
+
+		}
+		input[name="salvar"]:hover{
+		background-color:#49e551;
+	  	color:black;
+	  	border-bottom:2px solid black;
+		}
+		input[name="enviar"]{
+	  	background-color:#b5b8bc;
+	  	color:black;
+	  	padding:2px;
+	  	border: none;
+	  	border-radius: 25px;
+	  	cursor: pointer;
+	  	margin-top: 5px;
+	  	margin-bottom: 0px;
+	  	float:left;
+	  	left:10px;
+		position:relative;
+		margin-left: 5px;
+		outline: none;
+
+		}
+		input[name="enviar"]:hover{
+		background-color:#49e551;
+	  	color:black;
+	  	border-bottom:2px solid black;
+		}
+		input[name="excluir"]{
+		background-color:#b5b8bc;
+	  	padding:2px;
+	  	border: none;
+	  	border-radius: 25px;
+	  	cursor: pointer;
+	  	margin-top: 5px;
+	  	margin-bottom: 0px;
+		float:left;
+	  	left:10px;
+	  	position:relative;
+	  	outline: none;
+		}
+		input[name="excluir"]:hover{
+		background-color:#49e551;
+	  	color:black;
+	  	border-bottom:2px solid black;
+		}
+
+	a:link{
+		text-decoration: none;
+		color:black;
+		font-size: 18;
+		font-family: arial;
+		vertical-align: middle;
+		display:inline;
+	}
+	textarea{
+		width: 600px;
+		height: 110px;
+		resize:none;
+		background-color: #49e551;
+		margin-top: 0px;
+		margin-bottom: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border-radius: 25px;
+		box-shadow: none;
+		outline:none;
+		font-size: 16;
+		color:black;
+		font-family:times new roman;
+	}
+	#tabela{
+		margin-top: 50px;
+		border: none;
+		background-color:white;
+		border-radius: 25px;
+		width: 650px;
+		display:none;
+	}
+	#tabela2{
+		margin-top: 50px;
+		border: none;
+		background-color:white;
+		border-radius: 25px;
+		display: block;
+		width: 650px;
+	}
+	#FotoPerfil{
+		width: 80px;
+		height: 80px;
+		border-radius: 50px;
+		margin-right: 5px;
+		margin-left: 5px;
+		margin-bottom: 50px
+	}
+	.coment{
+		width: 575px;
+		height: 110px;
+		background-color: #87f9ff;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border-radius: 25px;
+	}
+	.barraComent{
+		width: 100%;
+		height:90px;
+		background-color:#49e551;
+		color:black;
+		font-family:Old English Text MT;
+		padding-bottom: 20px;
+	}
+	#png{
+		width:60px;
+		height: 60px;
+		margin-top:0px;
+		position: relative;
+		float:right;
+		right:23%;
+	}
+	button{
+		border-radius: 20px;
+		outline: none;
+		cursor: pointer;
+	}
+	/*===================================menu============================================*/
+	#menu_em_cima{   /*o header*/
+    width:100%;
+    height:180px;       /*so o header*/
+    top:0px;
+    left:0;
+    background-color:black;
+    position:fixed;
+    z-index:11;
+   
+
+}
+.menu-diferente{   /*menu para quando rolar a pagina*/
+    width:100%;
+    height:150px;       
+    top:0px;
+    left:0;
+    background-color:red;
+    position:absolute;
+    z-index:11;
+    position: fixed;
+
+}
+.menu-icon{
+  position:absolute;
+  font-size:25px;
+  font-weight:bold;      /*o simbolo do menu*/
+  padding:5px;
+  width:40px;
+  height:40px;
+  text-align:center;
+  background-color:white;
+  color:#190707;
+  cursor:pointer;
+  transition: all 1s;
+  left:0px;
+  top:100px;    
+}/*ola comentario    */
+.menu-icon:hover{ /*quando passar o mouse  */
+  background-color:#399b72;
+  color:blue;    
+  transform:rotate(35deg);
+
+}
+#chk{   /*o checkbox para aparecer*/
+  position:absolute;
+  display:none;                    /*esse é o checkbox*/
+}
+.menu{     /*é o menu principal que é a nav*/
+    
+    height:50%;
+    position:fixed;
+    background-color:#399b72;
+    top:180px; 
+    overflow:hidden; /*tira os pontos da lista*/
+    transition:all 1s;
+    width:200px;
+    left:-300px;  
+    z-index: 12;
+}
+
+#ul_menu{    /*esse "ul_menu" é para os uls relacionado as navs do menu*/
+    list-style:none;
+}
+
+#ul_menu li a{
+    display:block;          /*caracteristicas para os links*/
+    font-size:18px;
+    font-family:'Arail';
+    padding:10px;            
+    border-bottom:solid 1px #000;
+    color:#ccc;
+    text-decoration:none;
+    transition:all.1s;
+
+}
+#ul_menu li span{            /*para o "+ "*/
+    float:right;
+    padding-right:10px;
+}
+#ul_menu li a:hover{
+  background-color:white;
+border-right: solid 5px black;
+    
+}
+.voltar{
+    margin-top:60px;
+    background-color:#111;
+    border-left:solid 5px #444;
+}
+
+
+.bg{
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    position:fixed;
+    background-color:rgba(0,0,0,.6);   /*dá uma escurecida*/
+    display:none;  /*nao aparece nada ainda,só irá aparecer dps do evento,aí escurecerá*/
+}
+#chk:checked ~.bg{
+  /*  display:block;      /*agora sim a div ocupa todo o espaco r*/
+    
+}
+  /*estilizando agora as novas nav*/
+  #futebol{
+      width:200px;
+      left:201px;
+       display: none;  
+  }
+  #basquete{
+     width:200px;
+     left:201px;
+       display: none; 
+  }
+    #luta{
+     width:200px;
+     left:201px;
+   display: none;  
+  }
+  #natacao{
+     width:200px;
+     left:201px;
+     display: none;
+
+       }
+  /*#zz:hover #cursos{
+	  width:200px;
+  }
+  */
+ /*
+  #cursos:target,   
+  #contato:target{
+    position:fixed;
+	 width:200px;
+
+    /* transform:translateX(250px);*/
+	 
+	 
+  
+  
+  
+  	/* pesquisa*/
+.pesquisa1{
+position:absolute;
+width:400px;                  /*cacterísticas da pesquisa*/
+height:50px;
+top:100px;
+left:85%;
+}
+.pesquisa{
+position:absolute;
+width:400px;                  /*cacterísticas da pesquisa*/
+height:50px;
+top:100px;
+left:85%;
+
+
+}
+#texto{
+
+width:100px;       /*carac do input*/
+height:40px;
+float:left;
+color:black;
+font-family: 'Arial ';
+font-size:15px;
+background-color:rgb (0, 230, 230);
+}
+.btn{
+width:30px;
+height:30px;         /*imagem da lupa*/
+background-color:#2b2727;
+padding : 5px 10px;
+cursor : pointer;
+}
+#texto:focus{
+
+border : solid 2px #2f4550;
+width:140px;
+
+
+
+}
+
+/*terminou-*/
+/*o nome do "menu" */
+#leg{
+left:60px;
+top:110px;
+position:absolute;
+font-size:25px;
+font-family:'Arial';
+ color: white;
+	
+}
+/*fechou parte de cima do "menu"*/
+/*configurando logotipo*/
+#logo{
+position:absolute;
+top:0px;
+right:450px;
+width:500px;
+height:150px;
+}
+/*tela de acesso em cima*/
+
+.acesso #aces_ul{
+right:17px;
+position:absolute;
+top:0px;
+margin:0;
+list-style:none;
+background-color:#41f700;
+border-radius:4px 2px 10px 3px;
+cursor: pointer;
+z-index:50;
+}
+.acesso #aces_ul li{
+
+display:inline;	
+font-size:20px;
+font-family:"Arial";	
+}
+.acesso #aces_ul li ul{
+  top:4px;
+  width:60%;
+  position: relative;
+color:red;
+background-color:white;
+z-index: 12;
+border-right:1px solid blue;
+display:none;
+left:100px;
+}
+.acesso #aces_ul li ul li{
+  height:30px;
+   position: relative;
+   padding-top: 2px;
+  padding-right:2px;
+  border-bottom:3px solid #03122b;
+  color:red;
+  text-align: center;
+  display:block;
+
+
+}
+.acesso  #aces_ul  li  ul li:hover{
+background-color: blue;
+cursor: pointer;
+}
+.acesso #aces_ul li a{
+color:black;
+padding: 2px 10px;
+display:inline-block;	
+text-decoration:none;
+font-size:20px;
+font-family:"Arial";
+}
+#sessaologin{
+  position:absolute;
+  background-color:white;
+z-index:50;
+  float:right;
+  right:20px;
+ top:28px;
+  font-family:Arial;
+display:block;
+
+}
+#sessaologin li {
+   padding-top:7px;
+  text-align:center;
+  border: 2px solid black;
+  padding-bottom:10px;
+  height:15px;
+  width:130px;
+
+}
+a{
+   text-decoration:none;
+}
+a:hover{
+  color:red;
+  text-shadow:1px 2px 3px red;
+
+}
+
+/*tela de acesso em cima*/
+/*========================================logo==============================*/
+#h1log{
+
+top:-30px;
+font-family:arial;
+font-size:50px;
+color:white;
+text-shadow:1px 2px 10px #53f442;
+}
+#fotobolalogo{
+border-radius:50%;
+top:50px;
+position:absolute;
+width:300px;
+height:120px;
+left:208px;
+  animation-name:anime2;
+  animation-duration:2s;
+  animation-timing-function:linear;
+  animation-delay:1s;
+
+}
+#futlogo{
+  position:absolute;
+  left:70px;
+  
+}
+#logosite{
+  width:800px;
+  top:0px;
+
+
+  position:absolute;
+  left:380px;
+border:1px dotted green;
+border-bottom: none;
+
+  height:150px;
+  z-index:10;
+  padding-top:3px;
+  border-top:none;
+  z-index:30;
+}
+#buglogo{
+  position:absolute;
+  top:0px;
+
+  float:right;
+   right:80px;
+}
+
+@keyframes anime2{
+  0%{
+   left:-600px;
+
+  }
+  50%{
+     left:600px;
+  }
+  
+  100%{
+  left:210px;
+  }
+}
+#completa{
+  position:absolute;
+  width:100%;
+  background-color:black;
+  height:130px;
+}

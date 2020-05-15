@@ -1,0 +1,200 @@
+#menu_em_cima{   /*o header*/
+    width:100%;
+    height:90px;       /*so o header*/
+    top:0px;
+    left:0;
+    background-color:black;
+    position:fixed;
+    z-index:11;
+    display:none;
+   
+
+}
+.menu-diferente{   /*menu para quando rolar a pagina*/
+    width:100%;
+    height:150px;       
+    top:0px;
+    left:0;
+    background-color:red;
+    position:absolute;
+    z-index:11;
+    position: fixed;
+
+}
+.menu-icon{
+  position:absolute;
+  font-size:25px;
+  font-weight:bold;      /*o simbolo do menu*/
+  padding:5px;
+  width:40px;
+  height:40px;
+  text-align:center;
+  background-color:white;
+  color:#190707;
+  cursor:pointer;
+  transition: all 1s;
+  left:0px;
+  top:23px;    
+}/*ola comentario    */
+.menu-icon:hover{ /*quando passar o mouse  */
+  background-color:#399b72;
+  color:blue;    
+  transform:rotate(35deg);
+
+}
+#chk{   /*o checkbox para aparecer*/
+  position:absolute;
+  display:none;                    /*esse é o checkbox*/
+}
+.menu{     /*é o menu principal que é a nav*/
+    
+    height:50%;
+    position:fixed;
+    background-color:#399b72;
+    top:80px; 
+    overflow:hidden; /*tira os pontos da lista*/
+    transition:all 1s;
+    width:200px;
+    left:-300px;  
+    z-index: 12;
+}
+#leg{
+left:60px;
+top:40px;
+position:absolute;
+font-size:25px;
+font-family:'Arial';
+ color: white;
+  
+}
+#ul_menu{    /*esse "ul_menu" é para os uls relacionado as navs do menu*/
+    list-style:none;
+}
+#ul_menu li a{
+    display:block;          /*caracteristicas para os links*/
+    font-size:18px;
+    font-family:'Arail';
+    padding:10px;            
+    border-bottom:solid 1px #000;
+    color:#ccc;
+    text-decoration:none;
+    transition:all.1s;
+
+}
+#ul_menu li span{            /*para o "+ "*/
+    float:right;
+    padding-right:10px;
+}
+#ul_menu li a:hover{
+  background-color:white;
+	border-right: solid 5px black;
+    
+}
+.voltar{
+    margin-top:60px;
+    background-color:#111;
+    border-left:solid 5px #444;
+}
+.bg{
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    position:fixed;
+    background-color:rgba(0,0,0,.6);   /*dá uma escurecida*/
+    display:none;  /*nao aparece nada ainda,só irá aparecer dps do evento,aí escurecerá*/
+}
+#chk:checked ~.bg{
+  /*  display:block;      /*agora sim a div ocupa todo o espaco r*/
+    
+}
+  /*estilizando agora as novas nav*/
+  #futebol{
+      width:200px;
+      left:201px;
+       display: none;  
+  }
+  #basquete{
+     width:200px;
+     left:201px;
+       display: none; 
+  }
+    #luta{
+     width:200px;
+     left:201px;
+   display: none;  
+  }
+  #natacao{
+     width:200px;
+     left:201px;
+     display: none;
+
+       }
+/*css da pesquisa*/
+
+.pesquisa{
+
+position:relative;
+width:600px;                  /*cacterísticas da pesquisa*/
+height:50px;
+top:80px;
+left:250px;
+
+
+}
+.texto{
+
+width:500px;       /*carac do input*/
+height:40px;
+float:left;
+color:black;
+font-family: 'Arial ';
+font-size:20px;
+background-color:rgb (0, 230, 230);
+}
+.btn{
+width:30px;
+height:30px;         /*imagem da lupa*/
+background-color:#2b2727;
+padding : 5px 10px;
+cursor : pointer;
+}
+#texto:focus{
+
+border : solid 2px blue;
+
+
+}
+
+
+/*css da pesquisa*/
+
+/*css adm da tabela*/
+.tabelaEditavel {
+  top:200px;
+  position: relative;
+  border:solid 1px;
+  width:80%;
+  left:100px;
+}
+ 
+.tabelaEditavel td {
+    border:solid 1px green;
+    font-family: impact;
+    color:green;
+}
+.tabelaEditavel th{
+     color:blue;
+}
+ 
+.tabelaEditavel .celulaEmEdicao {
+    padding: 0;
+}
+ 
+.tabelaEditavel .celulaEmEdicao input[type=text]{
+    width:100%;
+    border:0;
+    background-color:rgb(255,253,210);  
+}
+
+/*css adm*/
