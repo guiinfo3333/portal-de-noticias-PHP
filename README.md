@@ -6,6 +6,6 @@ descrição e comentários. O usuário cadastrado pode comentar nas notícias e 
 onde fará com que o administrador possa visualizar quais notícias estão sendo as mais visusalizadas.
 
 
-Video onde você poderá ver o portal funcioanando:
+Video onde você poderá ver o portal funcionando  clicando na imagem:
 
 [![portaldenoticias](http://img.youtube.com/vi/dKFRm2AeK3A/0.jpg)](http://www.youtube.com/watch?v=dKFRm2AeK3A "Portal de Notícias em PHP")
